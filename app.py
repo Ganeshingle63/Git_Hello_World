@@ -9,5 +9,5 @@ def Hello_World():
     return render_template('hello.html',first_name=first,last_name=last)
 
 
-if __name__=='__main__':
-    app.run()
+# if __name__=='__main__':
+#     app.run()
