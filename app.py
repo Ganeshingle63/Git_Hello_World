@@ -9,5 +9,7 @@ def Hello_World():
     return render_template('hello.html',first_name=first,last_name=last)
 
 
-# if __name__=='__main__':
-#     app.run()
+if __name__=='__main__':
+    app.run(host='webserver.localdomain')
+    #ip-172-31-2-248.ap-south-1.compute.internal
+    
