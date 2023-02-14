@@ -6,4 +6,5 @@ def run():
     Hello_World()
 
 
-run()
+if __name__=='__main__':
+    run()
