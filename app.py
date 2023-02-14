@@ -10,6 +10,5 @@ def Hello_World():
 
 
 if __name__=='__main__':
-    app.run(host='webserver.localdomain')
-    #ip-172-31-2-248.ap-south-1.compute.internal
+    app.run(host='ip-172-31-2-248.ap-south-1.compute.internal')
     
