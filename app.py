@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,app
 app=Flask(__name__)
 
 @app.route('/')
@@ -8,9 +8,6 @@ def Hello_World():
     last='Ingle'
     return render_template('hello.html',first_name=first,last_name=last)
 
-def run():
-    Hello_World()
-
 
 if __name__=='__main__':
-    run()
+    app.run(debug=True)
